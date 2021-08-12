@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.711">
+    <testcase classname="feature to test the dropdown functionality" name="validate dropdown feature is working or not" time="0.255">
+        <failure message="The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html" type="java.lang.IllegalStateException"><![CDATA[Given user is on Facebook home page.........................................failed
+And user clicks on create account...........................................skipped
+When user enters all the details............................................skipped
+And user click to Sign up...................................................skipped
+Then user naviagted to results..............................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:254)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:37)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:222)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:405)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:119)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at StepDefinition.Dropdown1.user_is_on_Facebook_home_page(Dropdown1.java:21)
+	at ✽.user is on Facebook home page(file:///C:/Users/Rohit/eclipse-workspace/CucumberJava/src/test/resources/Feature/Dropdown1.feature:4)
+]]></failure>
+    </testcase>
+    <testcase classname="feature to test the googlesearch fuctionlity" name="validate  googlesearch is working or not" time="0.014">
+        <failure message="The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html" type="java.lang.IllegalStateException"><![CDATA[Given Browser is open.......................................................failed
+And user is on google search page...........................................skipped
+When user enters a text in searchbox........................................skipped
+And hits enter..............................................................skipped
+Then user is navigated to results...........................................skipped
+
+StackTrace:
+java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:254)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:37)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:222)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:405)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:119)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:105)
+	at StepDefinition.Goooglesearchsteps.browser_is_open(Goooglesearchsteps.java:23)
+	at ✽.Browser is open(file:///C:/Users/Rohit/eclipse-workspace/CucumberJava/src/test/resources/Feature/Googlesearch.feature:4)
+]]></failure>
+    </testcase>
+</testsuite>

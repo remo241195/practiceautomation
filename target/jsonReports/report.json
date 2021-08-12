@@ -1,0 +1,160 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-27T07:21:03.495Z",
+        "line": 3,
+        "name": "validate dropdown feature is working or not",
+        "description": "",
+        "id": "feature-to-test-the-dropdown-functionality;validate-dropdown-feature-is-working-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html\r\n\tat org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:254)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:37)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:222)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:405)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:119)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:105)\r\n\tat StepDefinition.Dropdown1.user_is_on_Facebook_home_page(Dropdown1.java:21)\r\n\tat ✽.user is on Facebook home page(file:///C:/Users/Rohit/eclipse-workspace/CucumberJava/src/test/resources/Feature/Dropdown1.feature:4)\r\n",
+              "duration": 76794000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is on Facebook home page",
+            "match": {
+              "location": "StepDefinition.Dropdown1.user_is_on_Facebook_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user clicks on create account",
+            "match": {
+              "location": "StepDefinition.Dropdown1.user_clicks_on_create_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters all the details",
+            "match": {
+              "location": "StepDefinition.Dropdown1.user_enters_all_the_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user click to Sign up",
+            "match": {
+              "location": "StepDefinition.Dropdown1.user_click_to_Sign_up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user naviagted to results",
+            "match": {
+              "location": "StepDefinition.Dropdown1.user_naviagted_to_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test the dropdown functionality",
+    "description": "",
+    "id": "feature-to-test-the-dropdown-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Dropdown1.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-27T07:21:03.788Z",
+        "line": 3,
+        "name": "validate  googlesearch is working or not",
+        "description": "",
+        "id": "feature-to-test-the-googlesearch-fuctionlity;validate--googlesearch-is-working-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html\r\n\tat org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:254)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:142)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:37)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:222)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:405)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:119)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:105)\r\n\tat StepDefinition.Goooglesearchsteps.browser_is_open(Goooglesearchsteps.java:23)\r\n\tat ✽.Browser is open(file:///C:/Users/Rohit/eclipse-workspace/CucumberJava/src/test/resources/Feature/Googlesearch.feature:4)\r\n",
+              "duration": 4985900,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Browser is open",
+            "match": {
+              "location": "StepDefinition.Goooglesearchsteps.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is on google search page",
+            "match": {
+              "location": "StepDefinition.Goooglesearchsteps.user_is_on_google_search_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters a text in searchbox",
+            "match": {
+              "location": "StepDefinition.Goooglesearchsteps.user_enters_a_text_in_searchbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "hits enter",
+            "match": {
+              "location": "StepDefinition.Goooglesearchsteps.hits_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is navigated to results",
+            "match": {
+              "location": "StepDefinition.Goooglesearchsteps.user_is_navigated_to_results()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test the googlesearch fuctionlity",
+    "description": "",
+    "id": "feature-to-test-the-googlesearch-fuctionlity",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Googlesearch.feature",
+    "tags": []
+  }
+]

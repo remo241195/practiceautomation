@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Session Test Automation Suite">
+  <test  name="testng feature test">
+  
+  <parameter name = "url" value = "https://login.yahoo.com" />
+    <parameter name = "username" value = "k_rohit50@yahoo.com" />
+      <parameter name = "pwd" value = "Kcder@2021" />
+    <classes>
+      
+         <class name = "StepDefinition.yahoologintest"/>
+           </classes>
+      </test>
+      </suite>
+     
+  

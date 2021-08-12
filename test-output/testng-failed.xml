@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Session Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testng feature test(failed)">
+    <parameter name="pwd" value="Kcder@2021"/>
+    <parameter name="url" value="https://login.yahoo.com"/>
+    <parameter name="username" value="k_rohit50@yahoo.com"/>
+    <classes>
+      <class name="StepDefinition.yahoologintest">
+        <methods>
+          <include name="yahoologintest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- StepDefinition.yahoologintest -->
+    </classes>
+  </test> <!-- testng feature test(failed) -->
+</suite> <!-- Failed suite [Session Test Automation Suite] -->
